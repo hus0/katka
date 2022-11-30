@@ -82,6 +82,9 @@
 					height: 0
 				});
 				$headerWrap.css( 'background-image', 'url(' + $headerImg.attr( 'src' ) + ')' );
+				$headerWrap.css( 'background-size', 'cover' );
+				$headerWrap.css( 'background-repeat', 'no-repeat' );
+				$headerWrap.css( 'background-position', 'center center' );
 				$headerWrap.addClass('mobile-static');
 				//Set min height for showcase by header height
 				$headerShowcase.css('min-height', contentHeight);
